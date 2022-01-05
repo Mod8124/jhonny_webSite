@@ -1,0 +1,333 @@
+/* DATOS DEL CSS*/
+
+/*
+autor: Denis Enrique Muñoz Baca
+fecha: 1/1/2020
+
+fuentes principales: Arial, Helvetica, sans-serif
+códigos de color:
+Background de página: #
+Color de fuente principal: #2a03c9, #bc008d, #00abbb
+Colores coorporativos: #
+
+Fecha de última modificación:17/2/2020
+
+modificado por: Denis Baca
+
+*/
+
+.wrapper {
+    width:100%;
+    height:100%;
+}
+
+
+.title {
+    width:100%;
+    background-image: url('../img/5.jpg');
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.title h1 {
+   padding:10px 30px;
+   border:3px solid white;
+   font-size: 1.8em;
+   color:white;
+}
+
+.arte {
+    width: 100%;
+}
+
+#arte {
+    width:90%;
+    margin:0 auto;
+    display: grid;
+    padding-top: 50px;
+    padding-bottom:50px;
+    max-width: 1500px;
+    grid-template-columns:100%;
+}
+
+#art {
+    width:80%;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#art img {
+    width: 100%;
+    margin:0 auto;
+    max-width: 550px;
+}
+
+.artText {
+    text-align: center;
+    padding: 20px;
+}
+
+.artText h2 {
+    color:#2a03c9;
+    padding-bottom: 30px;
+}
+
+.artText p {
+    padding-bottom: 40px;
+    line-height: 28px;
+}
+
+/* drawDeco */
+
+.drawDeco {
+    width: 100%;
+    background: linear-gradient(to bottom, #2a03c9, #3c1bc4);
+}
+
+#drawDeco {
+    padding-top: 40px;
+    padding-bottom:40px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    max-width: 1500px;
+    grid-template-columns: 100%;
+}
+
+.drawDecoText {
+    padding: 20px;
+    text-align: center;
+}
+
+.drawDecoText h2 {
+    color:white;
+    padding-bottom: 30px;
+}
+
+.drawDecoText p {
+    padding-bottom: 40px;
+    line-height: 28px;
+    color:white;
+}
+
+#drawDecoImg {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#drawDecoImg img {
+    width: 100%;
+    margin:0 auto;
+    max-width: 550px;
+}
+
+.sculpture {
+    width: 100%;
+}
+
+#sculpture {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 1500px;
+}
+
+.sculptureText {
+    padding:20px;
+    text-align: center;
+}
+
+.sculpture h2 {
+    color:#2a03c9;
+    padding-bottom: 30px;
+}
+
+.sculpture p {
+    padding-bottom: 40px;
+    line-height: 28px;
+}
+
+#sculptureImg {
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#sculptureImg img {
+    width: 100%;
+    margin:0 auto;
+    max-width: 550px;
+    max-height: 600px;
+}
+
+/* sliderDraw */
+
+.sliderDraw {
+    width:100%;
+    background: linear-gradient(to bottom, #2a03c9, #3c1bc4);
+}
+
+#sliderDraw {
+    width: 90%;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 1500px;
+    
+}
+
+.sliderDrawText {
+    padding: 20px;
+    text-align: center;
+}
+
+.sliderDraw h2 {
+    color:white;
+    padding-bottom: 30px;
+}
+
+.sliderDraw p {
+    padding-bottom: 40px;
+    line-height: 28px;
+    color:white;
+}
+
+.sliderDraw svg {
+    transition: all 0.5s;
+}
+
+.sliderDraw svg:hover {
+    stroke: #00abbb;
+}
+
+.sliderDrawImg {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 10px;
+}
+
+.sliderDrawImagenes {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+    padding-top: 20px;
+}
+
+.sliderDrawImagenes img {
+    width: 100%;
+    margin:0 auto;
+    max-width: 550px;
+    max-height: 600px;
+}
+
+#sliderDrawDot {
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.heightDot {
+    height: 20%;
+    display: grid;
+    grid-template-columns:  auto auto auto;
+    align-items: center;
+    grid-column-gap: 10px;
+}
+
+.dotDraw {
+    width: 22px;
+    height: 22px;
+    border:2px solid white;
+    background-color: #2a03c9;
+    cursor: pointer;
+}
+
+.dotDraw .active {
+    border:1px solid #bc008d;
+    background-color: #2a03c9;
+}
+
+@media screen and (min-width:1000px) { 
+    .title {
+        padding-top: 250px;
+        padding-bottom: 250px;
+    }
+    
+    .title h1 {
+        font-size: 3.6em;
+        background-color: rgba(0, 0, 0, 0.3);
+     }
+
+    #arte {
+        grid-template-columns: 50% 50%;
+    }
+
+    .artText {
+        padding: 40px;
+        text-align: start;
+    }
+
+    .artText h2, .drawDecoText h2, .sculpture h2, .sliderDraw h2   {
+        font-size: 2.2em;
+    }
+
+    .artText p,.drawDecoText p,.sculpture p, .sliderDraw p {
+        font-size: 1.1em;
+    }
+
+    #drawDeco {
+        grid-template-columns: 50% 50%;
+    }
+
+    .drawDecoText {
+        padding: 40px;
+        text-align: start;
+    }
+
+    #sculpture {
+        grid-template-columns: 50% 50%;
+    }
+
+    .sculptureText {
+        text-align: start;
+        order: 2;
+        padding: 40px;
+    }
+
+    #sliderDraw {
+        grid-template-columns: 50% 50%;
+    }
+
+    .sliderDrawText {
+        text-align: start;
+        padding: 40px;
+    }
+
+    .sliderDrawImg  {
+        grid-template-columns: 90% 10%;
+    }
+
+    .heightDot {
+        grid-template-columns: 100%;
+    }
+    
+}

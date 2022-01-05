@@ -1,0 +1,279 @@
+/* DATOS DEL CSS*/
+
+/*
+autor: Denis Enrique Muñoz Baca
+fecha: 1/1/2020
+
+fuentes principales: Arial, Helvetica, sans-serif
+códigos de color:
+Background de página: #
+Color de fuente principal: #2a03c9, #bc008d, #00abbb
+Colores coorporativos: #
+
+Fecha de última modificación:17/2/2020
+
+modificado por: Denis Baca
+
+*/
+
+.wrapper {
+    width:100%;
+    height: 100%;
+}
+
+.titleProyects {
+    width: 100%;
+    background-color: #2a03c9;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.dotProjects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: 2;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#dotProjects {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content:space-between;
+    flex-direction: row;
+    max-height: 140px;
+    max-width: 110px;
+}
+
+.det {
+    width: 22px;
+    height: 22px;
+    border:2px solid white;
+    cursor: pointer;
+}
+
+.backProjects {
+   width: 100%;
+}
+
+.projectsOne, .projectsTwo, .projectsThree {
+    background-size: cover;
+    background-position: center center;
+    padding-top: 200px;
+    padding-bottom: 300px;
+}
+
+
+.projectsOne {
+    background-image: url('../img/2.jpg');
+}
+
+.projectsTwo {
+    background-image: url('../img/1.jpg');
+}
+
+.projectsThree {
+    background-image: url('../img/timon-klauser-3MAmj1ZKSZA-unsplash.jpg');
+}
+
+.ctaProjects {
+    width: 90%;
+    margin:0 auto;
+    text-align: start;
+}
+
+.ctaProjects h1 {
+    color:white;
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+.ctaProjects p {
+    width:100%;
+    font-weight: bold;
+    color:white;
+    padding-bottom: 20px;
+}
+
+.ctaProjects button {
+    padding: 7px 20px;
+    border: none;
+    background-color: #bc008d;
+    color:white;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+.ctaProjects button:hover {
+    background-color:  #00abbb;
+}
+
+.projectsOne h1 {
+    color:white;
+}
+
+.socialProjects {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    order: 3;
+    padding-bottom: 40px;
+}
+
+#socialProjects {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    max-height: 140px;
+}
+
+#socialProjects svg{
+   transition: all 0.5s;
+}
+
+
+#socialProjects svg:hover {
+    stroke: #00abbb;
+}
+
+
+.projects {
+    width: 100%;
+}
+
+#backGro {
+    background-color: #ededed;
+    padding-bottom: 40px;
+}
+
+#backGroo {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1300px;
+    overflow: hidden;
+    padding-top: 60px;
+}
+
+.row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin:0 auto ;
+    width: 100%;
+}
+
+.column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 4px;
+}
+
+.column img {
+    width: 100%;
+}
+
+#backGrouu {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1100px;
+    overflow: hidden;
+    padding-top: 60px;
+}
+
+.rowDos {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin:0 auto ;
+    width: 100%;
+}
+
+.columnDos {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    padding: 0px 10px;
+}
+
+.columnDos img {
+    width: 100%;
+}
+
+@media screen and (min-width:1000px) {
+    .titleProyects {
+        grid-template-columns: 10% 80% 10%;
+    }
+    .projectsOne, .projectsTwo, .projectsThree {
+        padding-bottom: 360px;
+    }
+
+    .dotProjects {
+        order: 0;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    #dotProjects {
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        max-height: 140px;
+    }
+    
+    .backProjects {
+        width: 100%;
+        margin-top: 10px;
+     } 
+
+    .ctaProjects h1 {
+        font-size: 2.6em;
+    }
+
+    .ctaProjects p {
+        width:40%;
+        font-size: 1.4em;
+    }
+
+    .ctaProjects button {
+        font-size: 1.2em;
+    }
+
+    .socialProjects {
+        order: 3;
+        padding-bottom: 0px;
+    }
+
+    #socialProjects {
+        flex-direction: column;
+    }
+
+    #backGroo {
+      max-height: 2000px;
+    }
+
+    .column {
+        -ms-flex: 33%;
+        flex: 33%;
+        max-width: 33%;
+        padding: 0 4px;
+    }
+
+    .columnDos {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 50%;
+        padding: 0 4px;
+    }
+    
+    
+}
