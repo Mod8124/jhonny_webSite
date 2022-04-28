@@ -477,7 +477,7 @@ main {
     margin: 0 auto;
     margin-top: 8px;
     padding: 10px;
-    min-height: 230px;
+    min-height: 180px;
     padding-bottom: 16px;
 }
 
@@ -1260,6 +1260,57 @@ footer {
      #imgCta img {
          margin-bottom: -3px;
      }
+
+     .menuDesktop a{
+        font-size: 1.1em;
+        font-weight: 500;
+     }
+
+     #cta h1 {
+         font-size: 3.3em;
+     }
+
+     #cta p {
+         font-size: 1.3em;
+     }
+
+     .btn-pink {
+         font-size:1.3em ;
+     }
+
+     .titleServices h2 {
+         font-size: 2.3em;
+     }
+
+     #drawCta h2 {
+         font-size: 2.9em;
+     }
+
+     #drawCta p {
+         font-size: 1.3em;
+     }
+
+     .btnDraw {
+         font-size: 1.2em;
+     }
+
+     .titleTestimonials h2 {
+         font-size: 2.3em;
+     }
+
+     .slideText p {
+         font-size: 1.2em;
+     }
+
+     .slideText h5{
+        font-size: 1em;
+        font-weight: bold;
+     }
+
+     .contatTitle h3, .titleForm h2{
+        font-size: 1.8em;
+     }
+
      
  }
  

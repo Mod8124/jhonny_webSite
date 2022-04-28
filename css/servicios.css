@@ -329,5 +329,9 @@ modificado por: Denis Baca
     .heightDot {
         grid-template-columns: 100%;
     }
+
+    .artText p, .drawDecoText p, .sculpture p, .sliderDraw p {
+        font-size: 1.3em;
+    }
     
 }

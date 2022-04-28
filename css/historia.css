@@ -108,7 +108,7 @@ modificado por: Denis Baca
 .me h3 {
     text-align: center;
     padding-bottom: 10px;
-    font-size: 1.1em;
+    font-size: 1.2em;
     color:#bc008d;
     font-weight: bold;
 }
@@ -119,6 +119,7 @@ modificado por: Denis Baca
 
 .me p {
     text-align: center;
+    line-height: 28px;
 }
 
 @media screen and (min-width:1100px) {
