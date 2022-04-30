@@ -756,8 +756,7 @@ main {
 
 .slideImg img {
     width: 100%;
-    max-width: 90px;
-    height: 93px;
+    max-width: 80px;
 }
 
 .slideText  p {
